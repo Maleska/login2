@@ -6,7 +6,11 @@ const TitleBox: React.FC = () => {
     <Grid xs={0} sm={0} md={6} lg={6} xl={6} minHeight={550}>
       <Box
         sx={{
+<<<<<<< HEAD
           backgroundImage: `linear-gradient(135deg, rgba(0, 01, 60, 0.3) , rgba(0, 157, 255, 0.3))`,
+=======
+          backgroundImage: `linear-gradient(135deg, rgba(0, 255, 60, 0.3) , rgba(0, 157, 255, 0.3))`,
+>>>>>>> 4da5f967192b25ccf5191b20a23bf4517fb14d3b
           padding: "20px",
           display: {
             xs: 'none',
@@ -29,10 +33,17 @@ const TitleBox: React.FC = () => {
           alignItems="flex-start"
         >
           <Typography variant="h4" fontWeight="bold" color="whitesmoke" mb={3}>
+<<<<<<< HEAD
             Bienvenido <br /> a nuestro portal de ventas
           </Typography>
           <Typography variant="body1" fontWeight="" color="whitesmoke">
             Crece tu potencial con nuestros sistemas
+=======
+            Join Our <br /> Community
+          </Typography>
+          <Typography variant="body1" fontWeight="" color="whitesmoke">
+            Create Your High-Level Cloud Network Service!
+>>>>>>> 4da5f967192b25ccf5191b20a23bf4517fb14d3b
           </Typography>
         </Box>
       </Box>

@@ -3,8 +3,13 @@ import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import SigninPage from "./components/SigninPage";
 import TitleBox from "./components/TitleBox";
 import MainLayout from "./layouts/MainLayout";
+<<<<<<< HEAD
 import { GlobalStyle } from "./style/Global";
 //import QuestionPage from "./components/QuestionPage";
+=======
+
+import QuestionPage from "./components/QuestionPage";
+>>>>>>> 4da5f967192b25ccf5191b20a23bf4517fb14d3b
 
 
 const App: React.FC = () => {

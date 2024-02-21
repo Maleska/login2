@@ -7,10 +7,13 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
+<<<<<<< HEAD
 import { BrowserRouter, Routes,Route,Link  } from 'react-router-dom';
 import MainRouter from './router/router';
 
 
+=======
+>>>>>>> 4da5f967192b25ccf5191b20a23bf4517fb14d3b
 
 
 const firebaseConfig = {
@@ -31,10 +34,14 @@ const auth = getAuth();
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
+<<<<<<< HEAD
   {/* <BrowserRouter> */}
   <MainRouter />
     
  
   {/* </BrowserRouter> */}
+=======
+    <App />
+>>>>>>> 4da5f967192b25ccf5191b20a23bf4517fb14d3b
   </React.StrictMode>
 )
